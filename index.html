@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>سفرة</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="سفره - عروض - دجاج كنتاكي - مطاعم - " />
+    <!-------------boostrap---------------->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css"
+      integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N"
+      crossorigin="anonymous"
+    />
+    
+    <!-------------fontawesome---------------->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    />
+    <!-------------css file--------------->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <!-- start navbar -->
+    <nav class="nav-section">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-5 col-md-4 col-sm-12">
+            <ul>
+              <li class="dropdown">
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                <!--Start of Dropdown-->
+                <ul class="dropdown-nav dropdown-first dropdown-first-hide ">
+                  <li><a href="client/cart.html">قائمه الطعام</a></li>
+                  <li><a href="client/contact.html">تواصل معنا</a></li>
+                  <li><a href="myorders.html">طلباتي</a></li>
+                  <li><a href="restaurant/neworders.html">الطلبات المقدمة</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <a href="#"><i class="fas fa-user-circle"></i></a>
+                <!--Start of Dropdown-->
+                <ul class="dropdown-nav dropdown-second dropdown-first-hide">
+                  <li><a href="client/register.html"> انشاء حساب جديد</a></li>
+                  <li><a href="client/login.html">تسجيل الدخول</a></li>
+                  <li><a href="client/profile.html">حسابي</a></li>
+                </ul>
+              </li>
+
+              <li>
+                <form action="">
+                  <div class="form-group navbar-sofra-input">
+                    <input class="form-control " type="text" />
+                    <i class="fas fa-search"></i>
+                  </div>
+                </form>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <a href="index.html">
+              <img src="assets/imgs/sofra logo.png" class="navbar-sofra-logo" alt="" />
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="logo navbar-burger-logo">
+              <a href="client/resturant2.html"><img src="assets/imgs/burger.svg" alt="" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- start header -->
+    <header>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12 col-sm-12" style="padding: 0">
+            <img src="assets/imgs/header.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="header-title">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 col-sm-12">
+              <div class="title">
+                <h1>سفرة</h1>
+                <p>بتشتري ..بتبيع؟كله عند ام ربيع</p>
+                <a href="restaurant/registerseller.html"
+                  ><img src="assets/imgs/Register-now.png" alt=""
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- start favoruite food -->
+    <section class="favourite-food-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-sm-12">
+            <h2>ابحث عن مطعمك المفضل</h2>
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="form-group">
+                  <select class="form-control" id="exampleFormControlSelect1">
+                    <option selected>اختر المدينة</option>
+                    <option>القاهرة</option>
+                    <option>الجيزه</option>
+                    <option>الفيوم</option>
+                    <option>الدقهلية</option>
+                  </select>
+                </div>
+               
+                <div class="media position-relative">
+                  <a href="restaurant/resturant.html" class="go-to-resturant" ></a>
+                  <img
+                    src="assets/imgs/res-img.png"
+                    class="align-self-start mr-3"
+                    alt="..."
+                  />
+                  <div class="media-body">
+                    <h5 class="mt-0">دجاج كنتاكي</h5>
+                    <div class="stars">
+                      <i class="fas fa-star" style="color: #ec3454"></i>
+                      <i class="fas fa-star" style="color: #ec3454"></i>
+                      <i class="fas fa-star" style="color: #ec3454"></i>
+                      <i class="fas fa-star" style="color: rgb(51, 18, 78)"></i>
+                      <i class="fas fa-star" style="color: rgb(51, 18, 78)"></i>
+                    </div>
+                    <p>الحد الادني للطلب : 60 ريال</p>
+                    <p>رسوم التوصيل : 10 ريال</p>
+                    <div class="open">
+                      <span class="circle"></span>
+                      <span class="opens">مفتوح</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="media position-relative">
+                  <a href="restaurant/resturant.html" class="go-to-resturant" ></a>
+                  <img
+                    src="assets/imgs/res-img.png"
+                    class="align-self-start mr-3"
+                    alt="..."
+                  />
+                  <div class="media-body">
+                    <h5 class="mt-0">دجاج كنتاكي</h5>
+                    <div class="stars">
+                      <i class="fas fa-star" style="color: #ec3454"></i>
+                      <i class="fas fa-star" style="color: #ec3454"></i>
+                      <i class="fas fa-star" style="color: #ec3454"></i>
+                      <i class="fas fa-star" style="color: rgb(51, 18, 78)"></i>
+                      <i class="fas fa-star" style="color: rgb(51, 18, 78)"></i>
+                    </div>
+                    <p>الحد الادني للطلب : 60 ريال</p>
+                    <p>رسوم التوصيل : 10 ريال</p>
+                    <div class="open">
+                      <span class="circle"></span>
+                      <span class="opens">مفتوح</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="media position-relative">
+                  <a href="restaurant/resturant.html" class="go-to-resturant" ></a>
+                  <img
+                    src="assets/imgs/res-img.png"
+                    class="align-self-start mr-3"
+                    alt="..."
+                  />
+                  <div class="media-body">
+                    <h5 class="mt-0">دجاج كنتاكي</h5>
+                    <div class="stars">
+                      <i class="fas fa-star" style="color: #ec3454"></i>
+                      <i class="fas fa-star" style="color: #ec3454"></i>
+                      <i class="fas fa-star" style="color: #ec3454"></i>
+                      <i class="fas fa-star" style="color: rgb(51, 18, 78)"></i>
+                      <i class="fas fa-star" style="color: rgb(51, 18, 78)"></i>
+                    </div>
+                    <p>الحد الادني للطلب : 60 ريال</p>
+                    <p>رسوم التوصيل : 10 ريال</p>
+                    <div class="open">
+                      <span class="circle"></span>
+                      <span class="opens">مفتوح</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="form-group">
+                  <select class="form-control" id="exampleFormControlSelect1">
+                    <option selected>ابحث عن مطعمك المفضل</option>
+                    <option>دجاج كنتاكي</option>
+                    <option>الفيروز للدجاج</option>
+                    <option>مطعم الدهان</option>
+                    <option>مطعم الدوار</option>
+                  </select>
+                </div>
+                <div class="media position-relative">
+                  <a href="restaurant/resturant.html" class="go-to-resturant" ></a>
+                  <img
+                    src="assets/imgs/res-img.png"
+                    class="align-self-start mr-3"
+                    alt="..."
+                  />
+                  <div class="media-body">
+                    <h5 class="mt-0">دجاج كنتاكي</h5>
+                    <div class="stars">
+                      <i class="fas fa-star" style="color: #ec3454"></i>
+                      <i class="fas fa-star" style="color: #ec3454"></i>
+                      <i class="fas fa-star" style="color: #ec3454"></i>
+                      <i class="fas fa-star" style="color: rgb(51, 18, 78)"></i>
+                      <i class="fas fa-star" style="color: rgb(51, 18, 78)"></i>
+                    </div>
+                    <p>الحد الادني للطلب : 60 ريال</p>
+                    <p>رسوم التوصيل : 10 ريال</p>
+                    <div class="open">
+                      <span class="circle"></span>
+                      <span class="opens">مفتوح</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="media position-relative">
+                  <a href="restaurant/resturant.html" class="go-to-resturant" ></a>
+                  <img
+                    src="assets/imgs/res-img.png"
+                    class="align-self-start mr-3"
+                    alt="..."
+                  />
+                  <div class="media-body">
+                    <h5 class="mt-0">دجاج كنتاكي</h5>
+                    <div class="stars">
+                      <i class="fas fa-star" style="color: #ec3454"></i>
+                      <i class="fas fa-star" style="color: #ec3454"></i>
+                      <i class="fas fa-star" style="color: #ec3454"></i>
+                      <i class="fas fa-star" style="color: rgb(51, 18, 78)"></i>
+                      <i class="fas fa-star" style="color: rgb(51, 18, 78)"></i>
+                    </div>
+                    <p>الحد الادني للطلب : 60 ريال</p>
+                    <p>رسوم التوصيل : 10 ريال</p>
+                    <div class="open">
+                      <span class="circle"></span>
+                      <span class="opens">مفتوح</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="media position-relative">
+                  <a href="restaurant/resturant.html" class="go-to-resturant" ></a>
+                  <img
+                    src="assets/imgs/res-img.png"
+                    class="align-self-start mr-3"
+                    alt="..."
+                  />
+                  <div class="media-body">
+                    <h5 class="mt-0">دجاج كنتاكي</h5>
+                    <div class="stars">
+                      <i class="fas fa-star" style="color: #ec3454"></i>
+                      <i class="fas fa-star" style="color: #ec3454"></i>
+                      <i class="fas fa-star" style="color: #ec3454"></i>
+                      <i class="fas fa-star" style="color: rgb(51, 18, 78)"></i>
+                      <i class="fas fa-star" style="color: rgb(51, 18, 78)"></i>
+                    </div>
+                    <p>الحد الادني للطلب : 60 ريال</p>
+                    <p>رسوم التوصيل : 10 ريال</p>
+                    <div class="open">
+                      <span class="circle"></span>
+                      <span class="opens">مفتوح</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- start section offers -->
+    <section class="offers-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <img src="assets/imgs/offers.png" />
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="offers">
+              <p>
+                نقدم في سفرة افضل العروض لكل انواع المطاعم و الاكلات الشهية
+                المهلبية ماذا تنتظر ابدأ الاستمتاع بالعروض الان
+              </p>
+              <a href="client/offers.html">شاهد العروض</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- start download app -->
+    <section class="download-app">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-6 col-sm-12">
+            <h2>قم بتحميل التطبيق الخاص بنا</h2>
+            <a href="#">
+              <img src="assets/imgs/download button.png" alt="" />
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <img class="image" src="assets/imgs/app-download.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- start footer -->
+    <footer>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="text">
+              <div class="edit">
+                <img src="assets/imgs/edit.png" alt="" />
+                <h4>من نحن</h4>
+              </div>
+              <p>
+                لوريم ابيسوم هو نموذج افتراضي يوضع في التصاميم لتعرض علي العميل
+                ليتصور طريقة وضع النصوص بالتصاميم سواء كانت تصاميم مطبوعة
+                ...بروشور او فلاير علي سبيل المثال...او نماذج مواقع انترنت
+              </p>
+              <div class="icons">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <a href="index.html">
+              <img class="sofra" src="assets/imgs/sofra logo.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer -->
+
+    <!----------------js files---------------------->
+    <script src="assets/js/jQuery.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
