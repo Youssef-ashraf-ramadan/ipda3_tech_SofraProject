@@ -809,6 +809,9 @@ footer .sofra {
     padding: 10px 120px;
 
 }
+.add-offer-section .container .row .add-offer upload-input{
+display : none;
+}
 
 /*****************contact us*****************************/
 .contact-us-section {
